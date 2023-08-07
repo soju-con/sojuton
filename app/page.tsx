@@ -1,5 +1,6 @@
 import HeroSection from "@/components/home/HeroSection";
 import IntroSection from "@/components/home/IntroSection";
+import ScheduleSection from "@/components/home/ScheduleSection";
 import React from "react";
 
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
     <div>
       <HeroSection />
       <IntroSection />
+      <ScheduleSection />
     </div>
   );
 };
