@@ -1,4 +1,5 @@
 import { HandMetal } from "lucide-react";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -13,10 +14,16 @@ const HeroSection = () => {
             <p className="text-xl">얼레벌레 바캉스</p>
           </div>
           <div>
-            <button className="btn btn-primary text-white">
-              <HandMetal />
-              얼레벌레 하실분?
-            </button>
+            <Link
+              href={"https://festa.io/hosts/1436"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn btn-primary text-white">
+                <HandMetal />
+                얼레벌레 하실분?
+              </button>
+            </Link>
           </div>
         </div>
       </div>

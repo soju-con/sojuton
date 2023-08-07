@@ -1,7 +1,7 @@
-import React from "react";
 import MapScreenshot from "@/assets/images/map-screenshot.png";
-import Image from "next/image";
 import { Navigation } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
 const LocationSection = () => {
   return (
@@ -15,16 +15,29 @@ const LocationSection = () => {
               부산 해운대구 센텀동로 41 센텀벤처타운 6층
             </p>
             <div className="text-center">
-              <button className="btn btn-secondary">
-                <Navigation />길 찾기
-              </button>
+              <Link
+                href="https://naver.me/59NMqaf5"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn btn-secondary">
+                  <Navigation />길 찾기
+                </button>
+              </Link>
             </div>
           </div>
-          <div className="bg-white rounded-lg overflow-hidden">
-            <Image
-              alt="엘리스 Lab 부산점 부산 해운대구 센텀동로 41 센텀벤처타운 6층"
-              src={MapScreenshot}
-            />
+          <div className="bg-white rounded-xl overflow-hidden">
+            <Link
+              href="https://naver.me/59NMqaf5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                alt="엘리스 Lab 부산점 부산 해운대구 센텀동로 41 센텀벤처타운 6층"
+                src={MapScreenshot}
+                className="hover:scale-110 transition-transform"
+              />
+            </Link>
           </div>
         </div>
       </div>
