@@ -2,7 +2,7 @@ import { HandMetal } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="hero min-h-[75vh] bg-white">
+    <section className="hero h-[45vh] mt-16 sm:h-[70vh] bg-white">
       <div className="hero-content text-center max-w-7xl">
         <div className="flex flex-col gap-8 font-climate-crisis">
           <div className="space-y-8">
