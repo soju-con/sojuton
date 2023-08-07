@@ -5,7 +5,7 @@ const ScheduleSection = () => {
   return (
     <section>
       <div className="max-w-4xl p-4 my-16 mx-auto">
-        <div className="flex flex-col gap-8 text-center">
+        <div className="flex flex-col gap-8 text-center min-h-[75vh] justify-center">
           <h2 className="font-climate-crisis text-5xl">Schedule</h2>
           <div>
             <div className="overflow-x-auto">

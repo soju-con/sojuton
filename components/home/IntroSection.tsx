@@ -3,7 +3,7 @@ import React from "react";
 const IntroSection = () => {
   return (
     <section>
-      <div className="max-w-4xl p-4 my-8 mx-auto">
+      <div className="max-w-4xl p-4 my-8 mx-auto min-h-[50vh]">
         <div className="mockup-window border bg-blue-500">
           <div className="flex flex-col gap-8 justify-center px-4 py-16 bg-blue-600 text-white text-center break-keep">
             <h2 className="text-3xl sm:text-4xl font-semibold leading-10">
