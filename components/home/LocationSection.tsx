@@ -6,7 +6,7 @@ import Link from "next/link";
 const LocationSection = () => {
   return (
     <section id="location" className="bg-base-200 pt-14">
-      <div className="hero max-w-5xl p-4 my-16 mx-auto min-h-[75vh]">
+      <div className="hero max-w-5xl p-4 mb-16 mx-auto min-h-[75vh]">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left basis-1/2 flex flex-col justify-center">
             <h1 className="text-5xl font-bold font-climate-crisis">Location</h1>

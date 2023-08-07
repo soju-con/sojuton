@@ -1,4 +1,4 @@
-import EmailSection from "@/components/home/EmailSection";
+import SocialSection from "@/components/home/SocialSection";
 import FAQSection from "@/components/home/FAQSection";
 import HeroSection from "@/components/home/HeroSection";
 import IntroSection from "@/components/home/IntroSection";
@@ -15,7 +15,7 @@ const HomePage = () => {
       <SponsorSection />
       <LocationSection />
       <FAQSection />
-      <EmailSection />
+      <SocialSection />
     </div>
   );
 };
