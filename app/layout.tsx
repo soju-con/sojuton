@@ -1,6 +1,7 @@
 import { climateCrisisFont, pretendardFont } from "@/style/localFonts";
 import type { Metadata } from "next";
 import "./globals.css";
+import Header from "@/components/layout/Header";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,6 +19,7 @@ export default function RootLayout({
       className={`${pretendardFont.variable} ${climateCrisisFont.variable}`}
     >
       <body>
+        <Header />
         <main>{children}</main>
       </body>
     </html>
