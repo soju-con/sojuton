@@ -10,19 +10,13 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ["var(--font-pretendard)"],
+        "climate-crisis": ["var(--font-climate-crisis)"],
       },
     },
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: [
-      {
-        light: {
-          ...require("daisyui/src/theming/themes")["[data-theme=light]"],
-          primary: "#2563eb",
-        },
-      },
-    ],
+    themes: ["winter"],
   },
 };
 export default config;

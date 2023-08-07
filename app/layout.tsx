@@ -1,4 +1,4 @@
-import { pretendardFont } from "@/style/localFonts";
+import { climateCrisisFont, pretendardFont } from "@/style/localFonts";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -13,7 +13,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ko" className={`${pretendardFont.variable}`}>
+    <html
+      lang="ko"
+      className={`${pretendardFont.variable} ${climateCrisisFont.variable}`}
+    >
       <body>
         <main>{children}</main>
       </body>
