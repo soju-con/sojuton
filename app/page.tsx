@@ -1,3 +1,4 @@
+import FAQSection from "@/components/home/FAQSection";
 import HeroSection from "@/components/home/HeroSection";
 import IntroSection from "@/components/home/IntroSection";
 import LocationSection from "@/components/home/LocationSection";
@@ -13,6 +14,7 @@ const HomePage = () => {
       <ScheduleSection />
       <SponsorSection />
       <LocationSection />
+      <FAQSection />
     </div>
   );
 };
