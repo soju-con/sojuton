@@ -5,3 +5,10 @@ export const pretendardFont = localFont({
   display: "swap",
   variable: "--font-pretendard",
 });
+
+export const climateCrisisFont = localFont({
+  src: "../assets/fonts/ClimateCrisisKRVF.woff2",
+  display: "swap",
+  variable: "--font-climate-crisis",
+  weight: "900",
+});
