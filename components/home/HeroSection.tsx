@@ -19,7 +19,7 @@ const HeroSection = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="btn btn-primary btn-lg text-white">
+              <button className="btn btn-primary btn-lg text-white hover:scale-110">
                 <HandMetal />
                 얼레벌레 하실분?
               </button>
