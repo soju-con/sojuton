@@ -1,5 +1,6 @@
 import { HandMetal } from "lucide-react";
 import Link from "next/link";
+import DdayIndicator from "../DdayIndicator";
 
 const HeroSection = () => {
   return (
@@ -11,7 +12,9 @@ const HeroSection = () => {
             <h1 className="text-7xl sm:text-[108px] md:text-[150px] font-black bg-gradient-to-b from-blue-100 to-blue-600 bg-clip-text text-transparent">
               소주톤
             </h1>
-            <p className="text-xl">얼레벌레 바캉스</p>
+            <p className="text-xl text-secondary">
+              얼레벌레 바캉스까지 <DdayIndicator />
+            </p>
           </div>
           <div>
             <Link
