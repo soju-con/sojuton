@@ -9,8 +9,11 @@ const SponsorSection = () => {
           <h2 className="font-climate-crisis text-5xl">Sponsors</h2>
           <ul className="flex flex-row flex-wrap gap-8 justify-center">
             {SponsorList.map(({ name, image }) => (
-              <li key={name} className="hover:scale-125 transition-transform">
-                <Image alt={name} src={image} className="w-56" />
+              <li
+                key={name}
+                className="hover:scale-125 transition-transform flex flex-col justify-center"
+              >
+                <Image alt={name} src={image} className="max-w-[224px]" />
               </li>
             ))}
           </ul>
