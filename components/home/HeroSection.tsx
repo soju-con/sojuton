@@ -31,9 +31,9 @@ const HeroSection = () => {
             <p className="chat-footer opacity-50">버튼을 눌러 참여하기!</p>
           </div>
           <div className="chat chat-start">
-            <p className="text-lg text-white font-semibold flex flex-col justify-start chat-bubble chat-bubble-primary">
-              <span>얼레벌레 바캉스까지</span> <DdayIndicator />
-            </p>
+            <div className="text-lg text-white font-semibold flex flex-col justify-start chat-bubble chat-bubble-primary">
+              <p>얼레벌레 바캉스까지</p> <DdayIndicator />
+            </div>
             <p className="chat-footer opacity-50">엘리스 Lab 부산점에서!</p>
           </div>
         </div>

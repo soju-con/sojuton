@@ -23,7 +23,34 @@ const DdayIndicator = () => {
 
   if (!isHydrated) return <span>...</span>;
 
-  return <span>{`${days}일 ${hours}시간 ${minutes}분 ${seconds}초`}</span>;
+  return (
+    <div className="flex gap-4">
+      <div>
+        <span className="countdown text-2xl">
+          <span style={{ "--value": days } as React.CSSProperties}></span>
+        </span>
+        일
+      </div>
+      <div>
+        <span className="countdown text-2xl">
+          <span style={{ "--value": hours } as React.CSSProperties}></span>
+        </span>
+        시간
+      </div>
+      <div>
+        <span className="countdown text-2xl">
+          <span style={{ "--value": minutes } as React.CSSProperties}></span>
+        </span>
+        분
+      </div>
+      <div>
+        <span className="countdown text-2xl">
+          <span style={{ "--value": seconds } as React.CSSProperties}></span>
+        </span>
+        초
+      </div>
+    </div>
+  );
 };
 
 export default DdayIndicator;
