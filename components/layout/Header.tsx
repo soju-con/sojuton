@@ -32,7 +32,7 @@ const Header = () => {
   }, [pathname, searchParams]);
 
   return (
-    <header className="font-climate-crisis">
+    <header className="font-black">
       <div className="navbar bg-base-100 fixed top-0 z-40">
         <div className="flex-1">
           <Link
