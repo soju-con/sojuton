@@ -4,7 +4,7 @@ import DdayIndicator from "../DdayIndicator";
 
 const HeroSection = () => {
   return (
-    <section className="hero min-h-[45vh] mt-16 sm:min-h-[70vh] bg-white">
+    <section className="hero min-h-[45vh] mt-16 sm:min-h-[70vh] bg-white pt-16">
       <div className="hero-content w-full max-w-4xl">
         <div className="flex flex-col gap-8 font-black w-full">
           <div className="chat chat-start w-full">
