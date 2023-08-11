@@ -6,7 +6,7 @@ const ScheduleSection = () => {
     <section id="schedule" className="pt-14">
       <div className="max-w-4xl p-4 my-16 mx-auto">
         <div className="flex flex-col gap-8 text-center min-h-[75vh] justify-center">
-          <h2 className="font-climate-crisis text-5xl">Schedule</h2>
+          <h2 className="font-black text-5xl">Schedule</h2>
           <div>
             <div className="overflow-x-auto">
               <table className="table table-zebra text-center text-xl break-keep">

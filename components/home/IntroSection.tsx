@@ -8,8 +8,7 @@ const IntroSection = () => {
           <div className="flex flex-col gap-8 justify-center px-4 py-16 bg-blue-600 text-white text-center break-keep">
             <h2 className="text-3xl sm:text-4xl font-semibold leading-10">
               🏖️ 2회 소주톤의 주제는{" "}
-              <strong className="font-climate-crisis">얼레벌레바캉스</strong>{" "}
-              입니다!
+              <strong className="font-black">얼레벌레바캉스</strong> 입니다!
             </h2>
             <p className="text-lg leading-8">
               2회 소주톤은 주니어 여러분의 성장을 위한 협업과 네트워킹 기회를

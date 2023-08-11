@@ -32,12 +32,12 @@ const Header = () => {
   }, [pathname, searchParams]);
 
   return (
-    <header className="font-climate-crisis">
+    <header className="font-black">
       <div className="navbar bg-base-100 fixed top-0 z-40">
-        <div className="flex-1">
+        <div className="flex-1 chat">
           <Link
             href="/"
-            className="btn btn-ghost normal-case text-2xl text-primary"
+            className="btn btn-primary text-2xl text-white chat-bubble chat-bubble-primary"
           >
             소주톤
           </Link>
@@ -46,7 +46,7 @@ const Header = () => {
           <ul className="menu menu-horizontal px-1 space-x-2">
             {NavLinkItems.map(({ name, href }) => (
               <li key={href}>
-                <Link href={href} className="font-semibold">
+                <Link href={href} className="font-semibold text-xl">
                   {name}
                 </Link>
               </li>
