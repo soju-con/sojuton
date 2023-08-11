@@ -1,9 +1,7 @@
-import Elice from "../assets/sponsorImages/elice.jpg";
-import Veluga from "../assets/sponsorImages/veluga.png";
 import Elba from "../assets/sponsorImages/elba.webp";
-import Zzom from "../assets/sponsorImages/zzom.png";
-import GoogleDevelopers from "../assets/sponsorImages/google-developers.svg";
-import Cochl from "../assets/sponsorImages/cochl.png";
+import Elice from "../assets/sponsorImages/elice.jpg";
+import Hanbitmedia from "../assets/sponsorImages/hanbitmedia.png";
+import Jetbrain from "../assets/sponsorImages/jetbrain.svg";
 
 export const SponsorList = [
   {
@@ -11,23 +9,15 @@ export const SponsorList = [
     image: Elice,
   },
   {
-    name: "veluga",
-    image: Veluga,
-  },
-  {
     name: "elba",
     image: Elba,
   },
   {
-    name: "zzom",
-    image: Zzom,
+    name: "hanbitmedia",
+    image: Hanbitmedia,
   },
   {
-    name: "googleDevelopers",
-    image: GoogleDevelopers,
-  },
-  {
-    name: "cochl",
-    image: Cochl,
+    name: "jetbrain",
+    image: Jetbrain,
   },
 ];
