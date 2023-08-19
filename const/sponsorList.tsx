@@ -1,7 +1,7 @@
 import Elba from "../assets/sponsorImages/elba.webp";
 import Elice from "../assets/sponsorImages/elice.jpg";
 import Hanbitmedia from "../assets/sponsorImages/hanbitmedia.png";
-import Jetbrain from "../assets/sponsorImages/jetbrain.svg";
+import Jetbrains from "../assets/sponsorImages/jetbrains.png";
 
 export const SponsorList = [
   {
@@ -9,15 +9,15 @@ export const SponsorList = [
     image: Elice,
   },
   {
-    name: "elba",
-    image: Elba,
+    name: "jetbrains",
+    image: Jetbrains,
   },
   {
     name: "hanbitmedia",
     image: Hanbitmedia,
   },
   {
-    name: "jetbrain",
-    image: Jetbrain,
+    name: "elba",
+    image: Elba,
   },
 ];
