@@ -18,7 +18,7 @@ const HeroSection = () => {
           </div>
           <div className="chat chat-end">
             <Link
-              href={"https://festa.io/hosts/1436"}
+              href={"https://festa.io/events/3827"}
               target="_blank"
               rel="noopener noreferrer"
               className="chat-bubble chat-bubble-secondary"
