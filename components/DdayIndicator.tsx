@@ -3,7 +3,7 @@
 import { calculateDday } from "@/utils/calculateDday";
 import { useEffect, useState } from "react";
 
-const targetDateString = new Date("2023-09-02T00:00:00+09:00").toISOString();
+const targetDateString = new Date("2023-09-02T10:00:00+09:00").toISOString();
 
 const DdayIndicator = () => {
   const [isHydrated, setIsHydrated] = useState(false);
@@ -24,7 +24,7 @@ const DdayIndicator = () => {
   if (!isHydrated) return <span>...</span>;
 
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 items-center">
       <div>
         <span className="countdown text-2xl">
           <span style={{ "--value": days } as React.CSSProperties}></span>
